@@ -9,12 +9,11 @@ constructor() {
   super()
 
   this.state = {
-  users: data
-
+    users: data
   }
-  
-}
 
+    }
+  
 render() {
   
 
@@ -22,7 +21,8 @@ render() {
   
     <div>
     <Comp2/>
-    <Comp1/>    
+  
+    <Comp1 user={this.state.users}/>    
     </div>
   
   )
